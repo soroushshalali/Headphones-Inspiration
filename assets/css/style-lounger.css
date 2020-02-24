@@ -22,22 +22,30 @@
 
 .btnmenu{
     background-color: rgba(255, 0, 0, 0);
+    border: none;
+    outline: none;
     display: none;
     margin-left: 5%;
-    color: #ebccc2;
+    color: #ebccc200;
     font-size: 20px;
     position: fixed;
     top: 13vh;
+    display: none;
+    background-color: none;
     
 }
 .btnmenu2{
     background-color: rgba(255, 0, 0, 0);
+    border: none;
+    outline: none;
+
     display: none;
     margin-left: 5%;
-    color: #ebccc2a6;
+    color: #ebccc200;
     font-size: 20px;
     position: fixed;
     top: 13vh;
+    display: none;
 }
 
 body{
