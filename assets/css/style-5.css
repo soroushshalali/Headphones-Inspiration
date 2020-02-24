@@ -338,10 +338,11 @@ header{
     .btnmenu{
         display: inline-block;
         font-size: 50px;
+        background-color: rgba(255, 0, 0, 0);
     }
 
     .btnmenu2{
-
+        background-color: rgba(255, 0, 0, 0);
         font-size: 50px;
 
     }
@@ -569,10 +570,11 @@ font-size: 40px;
     .btnmenu{
         display: inline-block;
         font-size: 40px;
+        background-color: rgba(255, 0, 0, 0);
     }
 
     .btnmenu2{
-
+        background-color: rgba(255, 0, 0, 0);
         font-size: 40px;
 
     }
@@ -794,12 +796,13 @@ font-size: 30px;
     }
 
     .btnmenu{
+        background-color: rgba(255, 0, 0, 0);
         display: inline-block;
         font-size: 20px;
     }
 
     .btnmenu2{
-
+        background-color: rgba(255, 0, 0, 0);
         font-size: 20px;
 
     }

@@ -239,12 +239,13 @@ line-height: 4vh;
 
 
     .btnmenu{
+        background-color: rgba(255, 0, 0, 0);
         display: inline-block;
         font-size: 50px;
     }
 
     .btnmenu2{
-
+        background-color: rgba(255, 0, 0, 0);
         font-size: 50px;
 
     }
@@ -410,12 +411,13 @@ line-height: 4vh;
     }
 
     .btnmenu{
+        background-color: rgba(255, 0, 0, 0);
         display: inline-block;
         font-size: 40px;
     }
 
     .btnmenu2{
-
+        background-color: rgba(255, 0, 0, 0);
         font-size: 40px;
 
     }
@@ -582,12 +584,13 @@ line-height: 4vh;
     }
 
     .btnmenu{
+        background-color: rgba(255, 0, 0, 0);
         display: inline-block;
         font-size: 20px;
     }
 
     .btnmenu2{
-
+        background-color: rgba(255, 0, 0, 0);
         font-size: 20px;
 
     }
