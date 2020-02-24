@@ -283,7 +283,7 @@ main h1{
 
 
 .btnmenu{
-
+    background-color: rgba(255, 0, 0, 0);
     margin-left: 5%;
     color: #ebccc2;
     font-size: 20px;
