@@ -1,0 +1,731 @@
+@font-face{
+    font-family: worksans;
+    src: url(fonts/WorkSans-Black.otf);
+    src: url(fonts/WorkSans-Bold.otf);
+    src: url(fonts/WorkSans-ExtraBold.otf);
+    src: url(fonts/WorkSans-ExtraLight.otf);
+    src: url(fonts/WorkSans-Hairline.otf);
+    src: url(fonts/WorkSans-Light.otf);
+    src: url(fonts/WorkSans-SemiBold.otf);
+    src: url(fonts/WorkSans-Thin.otf);
+}
+
+@font-face{
+    font-family: worksans2;
+    src: url(fonts/WorkSans-Regular.otf);
+}
+
+@font-face{
+    font-family: worksans3;
+    src: url(fonts/WorkSans-Medium.otf);
+}
+
+.btnmenu{
+    display: none;
+    margin-left: 5%;
+    color: #ebccc2;
+    font-size: 20px;
+    position: fixed;
+    top: 13vh;
+    display: none;
+    
+}
+.btnmenu2{
+    display: none;
+    margin-left: 5%;
+    color: #ebccc2a6;
+    font-size: 20px;
+    position: fixed;
+    top: 13vh;
+    display: none;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #2e2e2e;
+    color: #ebccc2;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: WorkSans;
+}
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+}
+
+.logo{
+    width: 10%;
+    text-align: center;
+    
+}
+.logo > img{
+
+}
+
+.social{
+    width: 70%;
+    text-align: right;
+    padding-right: 5%;
+}
+
+.social > ul{
+
+}
+
+.social > ul > li{
+    display: inline-block;
+    margin-left: 1%;
+}
+
+.subscribe{
+    margin-right: 2%;
+}
+
+.youtube{
+    margin-right: 2%;
+}
+
+.social > ul > li > a{
+    font-family: worksans2;
+    text-decoration: none;
+    color: #867772 ;
+    transition: 0.5s;
+    text-shadow: 0px 0px 4px rgb(46, 46, 46);
+}
+
+.social > ul > li > a:hover{
+    color: #ebccc2;
+    text-decoration: underline #ebccc2;
+    transition: 0.5s;
+}
+
+.menu{
+    position: fixed;
+    margin-top: 10vh;
+    margin-left: 1.5%;
+}
+
+.menu > ul{
+    list-style-type: none;
+}
+
+.menu > ul > li{
+    margin-bottom: 9vh;
+}
+
+.menu > ul > li > section{
+    display: flex;
+    text-decoration: none;
+}
+
+.menu > ul > li > section > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.verline{
+    width: 2px;
+    height: 7vh;
+    background-color: #867772 ;
+    opacity: 0.5;
+    position: absolute;
+    top: 4vh;
+}
+.circles{
+    position: relative;
+}
+
+.circle1{
+    color: #ebccc2a6;
+    font-size: 28px;
+    opacity: 0;
+}
+
+.circle1-2{
+    color: #ddcec7 ;
+    font-size: 28px;
+    opacity: 1;
+}
+
+.circle2{
+    color: #867772 ;
+    font-size: 15px;
+    position: absolute;
+    right: 23%;
+    top: 0.9vh;
+}
+
+.menu > ul > li > section > span{
+    color: rgb(0, 0, 0);
+    margin-left: 19%;
+}
+
+.menu > ul > li > section > span > a{
+    display: inline-block;
+    margin-top: 1vh;
+    text-decoration: none;
+    color: #d4c7c2 ;
+    transition: 0.5s;
+    font-family: worksans2;
+}
+
+#seltext{
+    color: #e7e7e7 ;
+    font-family: worksans3;
+}
+
+.menu > ul > li > section > span > a:hover{
+    transition: 0.5s;
+    color: #ebccc2;
+}
+
+main{
+    padding:5vh 5%;
+}
+
+main h1{
+    font-family: worksans;
+    text-align: left;
+    margin-bottom: 10vh;
+    margin-left: 35%;
+    text-shadow: 0px 0px 4px rgb(46, 46, 46);
+}
+
+.divimage1{
+    background-image: url(../img/section-about-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.575);
+}   
+
+.sec1home{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1;
+    grid-gap: 5%;
+    padding: 20vh 10% 10vh 10%;
+}
+
+.artimage{
+    box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.575);
+    background-image: url(../img/BS1_NYC_Home.webp);
+    height: 80vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.sec1home > article{
+    padding-top: 20vh;
+}
+
+.sec1home > article > h1{
+    margin-bottom: 3vh;
+    text-align: left;
+    margin-left: 0;
+    font-size: 40px;
+    font-family: worksans2;
+}
+
+.sec1home > article > p{
+    line-height: 5vh;
+    color: #ebccc2a6;
+    font-size: 18px;
+}
+
+.btnmenu{
+    display: none;
+    margin-left: 5%;
+    color: #ebccc2;
+    font-size: 20px;
+    position: fixed;
+    top: 13vh;
+    
+}
+.btnmenu2{
+    display: none;
+    margin-left: 5%;
+    color: #ebccc2a6;
+    font-size: 20px;
+    position: fixed;
+    top: 13vh;
+}
+
+
+
+
+@media only screen and (max-width: 1140px) {
+   
+    header{
+        position: static;
+    }
+    
+    .btnmenu{
+        display: inline-block;
+        font-size: 40px;
+    }
+
+    .btnmenu2{
+
+        font-size: 40px;
+
+    }
+
+
+
+
+
+
+
+    .menu{
+        position: fixed;
+        margin-top: 11vh;
+        margin-left: 0%;
+        width: 0%;
+        height: 0vh;
+        overflow: hidden;
+        transition: 0.5s;
+        background-color: #2e2e2ec2;
+        border-radius: 4px;
+        box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.575);
+        
+    }
+    
+    .menu > ul > li{
+        margin-bottom: 5vh;
+    }
+    
+    .menu > ul > li > section > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .verline{
+        display: none;
+    }
+    .circles{
+        display: none;
+    }
+
+    .menu > ul > li > section > span{
+        color: rgb(0, 0, 0);
+        margin-left: 19%;
+        font-size: 12px;
+    }
+    
+    .menu > ul > li > section > span > a{
+        text-decoration: none;
+        color: #d4c7c2 ;
+        transition: 0.5s;
+        font-family: worksans2;
+        font-size: 30px;
+    }
+main h1{
+    font-family: worksans;
+    text-align: center;
+    margin-bottom: 10vh;
+    text-shadow: 0px 0px 4px rgb(46, 46, 46);
+    font-size: 50px;
+    margin-left: 0%;
+}
+
+.divimage1{
+    background-image: url(../img/section-about-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.575);
+}   
+
+.sec1home{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 2;
+    grid-gap: 1vh;
+    padding: 1vh 10% 10vh 10%;
+}
+
+.artimage{
+    box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.575);
+    background-image: url(../img/BS1_NYC_Home.webp);
+    height: 40vh;
+    background-position: top;
+    margin-top: 10vh;
+
+
+}
+
+.sec1home > article{
+    padding-top: 5vh;
+}
+
+.sec1home > article > h1{
+    margin-bottom: 3vh;
+    text-align: left;
+    margin-left: 0;
+    font-size: 40px;
+    font-family: worksans2;
+}
+
+.sec1home > article > p{
+    line-height: 5vh;
+    color: #ebccc2a6;
+    font-size: 25px;
+}
+
+
+}
+
+@media only screen and (max-width: 768px) {
+   
+    header{
+        position: static;
+    }
+    
+    .btnmenu{
+        display: inline-block;
+        font-size: 40px;
+    }
+
+    .btnmenu2{
+
+        font-size: 40px;
+
+    }
+
+
+
+
+
+
+
+    .menu{
+        position: fixed;
+        margin-top: 11vh;
+        margin-left: 0%;
+        width: 0%;
+        height: 0vh;
+        overflow: hidden;
+        transition: 0.5s;
+        background-color: #2e2e2ec2;
+        border-radius: 4px;
+        box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.575);
+        
+    }
+    
+    .menu > ul > li{
+        margin-bottom: 5vh;
+    }
+    
+    .menu > ul > li > section > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .verline{
+        display: none;
+    }
+    .circles{
+        display: none;
+    }
+
+    .menu > ul > li > section > span{
+        color: rgb(0, 0, 0);
+        margin-left: 19%;
+        font-size: 12px;
+    }
+    
+    .menu > ul > li > section > span > a{
+        text-decoration: none;
+        color: #d4c7c2 ;
+        transition: 0.5s;
+        font-family: worksans2;
+        font-size: 20px;
+    }
+main h1{
+    font-family: worksans;
+    text-align: center;
+    margin-bottom: 10vh;
+    text-shadow: 0px 0px 4px rgb(46, 46, 46);
+    font-size: 50px;
+    margin-left: 0%;
+}
+
+.divimage1{
+    background-image: url(../img/section-about-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.575);
+}   
+
+.sec1home{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 2;
+    grid-gap: 1vh;
+    padding: 1vh 10% 10vh 10%;
+}
+
+.artimage{
+    box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.575);
+    background-image: url(../img/BS1_NYC_Home.webp);
+    height: 40vh;
+    background-position: top;
+    margin-top: 10vh;
+
+
+}
+
+.sec1home > article{
+    padding-top: 5vh;
+}
+
+.sec1home > article > h1{
+    margin-bottom: 3vh;
+    text-align: left;
+    margin-left: 0;
+    font-size: 40px;
+    font-family: worksans2;
+}
+
+.sec1home > article > p{
+    line-height: 5vh;
+    color: #ebccc2a6;
+    font-size: 18px;
+}
+
+
+}
+
+@media only screen and (max-width: 576px) {
+   
+    header{
+
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2vh;
+        padding-left: 3%;
+
+    }
+
+    .btnmenu{
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .btnmenu2{
+
+        font-size: 20px;
+
+    }
+    
+    .logo > img{
+        
+    }
+    
+    .social{
+        width: 80%;
+        text-align: right;
+        padding-right: 5%;
+    }
+    
+    .social > ul{
+    
+    }
+    
+    .social > ul > li{
+        display: inline-block;
+        margin-left: 1%;
+    }
+    
+    .subscribe{
+        margin-right: 2%;
+    }
+    
+    .youtube{
+        margin-right: 2%;
+    }
+    
+    .social > ul > li > a{
+        font-family: worksans2;
+        text-decoration: none;
+        color: #867772 ;
+        transition: 0.5s;
+        font-size: 10px;
+        text-shadow: 0px 0px 4px rgb(46, 46, 46);
+    }
+    
+   
+   
+   
+   
+   
+
+   
+   
+   
+    .btnmenu{
+        display: inline-block;
+    }
+    .btnmenu2{
+        
+    }
+    .menu{
+        position: fixed;
+        margin-top: 11vh;
+        margin-left: 0%;
+        width: 0%;
+        height: 0vh;
+        overflow: hidden;
+        transition: 0.5s;
+        background-color: #2e2e2ec2;
+        border-radius: 4px;
+        box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.575);
+        
+        
+    }
+    
+    .menu > ul{
+        list-style-type: none;
+    }
+    
+    .menu > ul > li{
+        margin-bottom: 5vh;
+    }
+    
+    .menu > ul > li > section{
+        display: flex;
+        text-decoration: none;
+    }
+    
+    .menu > ul > li > section > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .verline{
+        width: 2px;
+        height: 7vh;
+        background-color: #867772 ;
+        opacity: 0.5;
+        position: absolute;
+        top: 4vh;
+        display: none;
+    }
+    .circles{
+        position: relative;
+        display: none;
+    }
+    
+    
+    .menu > ul > li > section > span{
+        color: rgb(0, 0, 0);
+        margin-left: 19%;
+        font-size: 12px;
+    }
+    
+    .menu > ul > li > section > span > a{
+        text-decoration: none;
+        color: #d4c7c2 ;
+        transition: 0.5s;
+        font-family: worksans2;
+        font-size: 12px;
+    }
+    
+    
+
+
+
+
+
+main{
+    padding:5vh 5%;
+}
+
+main h1{
+    font-family: worksans;
+    text-align: center;
+    margin-bottom: 10vh;
+    text-shadow: 0px 0px 4px rgb(46, 46, 46);
+    font-size: 20px;
+    margin-left: 0%;
+}
+
+.divimage1{
+    background-image: url(../img/section-about-1.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.575);
+}   
+
+.sec1home{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 2;
+    grid-gap: 1vh;
+    padding: 1vh 10% 10vh 10%;
+}
+
+.artimage{
+    box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.575);
+    background-image: url(../img/BS1_NYC_Home.webp);
+    height: 40vh;
+    background-position: top;
+    margin-top: 10vh;
+
+
+}
+
+.sec1home > article{
+    padding-top: 5vh;
+}
+
+.sec1home > article > h1{
+    margin-bottom: 3vh;
+    text-align: left;
+    margin-left: 0;
+    font-size: 40px;
+    font-family: worksans2;
+}
+
+.sec1home > article > p{
+    line-height: 5vh;
+    color: #ebccc2a6;
+    font-size: 18px;
+}
+
+
+}
+
+
+
+
+
+

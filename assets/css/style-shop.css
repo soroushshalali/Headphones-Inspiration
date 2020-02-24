@@ -1,0 +1,776 @@
+@font-face{
+    font-family: worksans;
+    src: url(fonts/WorkSans-Black.otf);
+    src: url(fonts/WorkSans-Bold.otf);
+    src: url(fonts/WorkSans-ExtraBold.otf);
+    src: url(fonts/WorkSans-ExtraLight.otf);
+    src: url(fonts/WorkSans-Hairline.otf);
+    src: url(fonts/WorkSans-Light.otf);
+    src: url(fonts/WorkSans-SemiBold.otf);
+    src: url(fonts/WorkSans-Thin.otf);
+}
+
+@font-face{
+    font-family: worksans2;
+    src: url(fonts/WorkSans-Regular.otf);
+}
+
+@font-face{
+    font-family: worksans3;
+    src: url(fonts/WorkSans-Medium.otf);
+}
+
+.btnmenu{
+    display: none;
+    margin-left: 5%;
+    color: #ebccc2;
+    font-size: 20px;
+    position: fixed;
+    top: 13vh;
+    
+}
+.btnmenu2{
+    display: none;
+    margin-left: 5%;
+    color: #ebccc2a6;
+    font-size: 20px;
+    position: fixed;
+    top: 13vh;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #2e2e2e;
+    color: #ebccc2;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: WorkSans;
+}
+header{
+    position: fixed;
+    top: 1px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+    width: 100%;
+    
+}
+
+.logo{
+    width: 10%;
+    text-align: center;
+    
+}
+.logo > img{
+
+}
+
+.social{
+    width: 70%;
+    text-align: right;
+    padding-right: 5%;
+}
+
+.social > ul{
+
+}
+
+.social > ul > li{
+    display: inline-block;
+    margin-left: 1%;
+}
+
+.subscribe{
+    margin-right: 2%;
+}
+
+.youtube{
+    margin-right: 2%;
+}
+
+.social > ul > li > a{
+    font-family: worksans2;
+    text-decoration: none;
+    color: #867772 ;
+    transition: 0.5s;
+    text-shadow: 0px 0px 4px rgb(46, 46, 46);
+}
+
+.social > ul > li > a:hover{
+    color: #ebccc2;
+    text-decoration: underline #ebccc2;
+    transition: 0.5s;
+}
+
+.menu{
+    position: fixed;
+    margin-top: 20vh;
+    margin-left: 1.5%;
+}
+
+.menu > ul{
+    list-style-type: none;
+}
+
+.menu > ul > li{
+    margin-bottom: 9vh;
+}
+
+.menu > ul > li > section{
+    display: flex;
+    text-decoration: none;
+}
+
+.menu > ul > li > section > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.verline{
+    width: 2px;
+    height: 7vh;
+    background-color: #867772 ;
+    opacity: 0.5;
+    position: absolute;
+    top: 4vh;
+}
+.circles{
+    position: relative;
+}
+
+.circle1{
+    color: #ebccc2a6;
+    font-size: 28px;
+    opacity: 0;
+}
+
+.circle1-2{
+    color: #ddcec7 ;
+    font-size: 28px;
+    opacity: 1;
+}
+
+.circle2{
+    color: #867772 ;
+    font-size: 15px;
+    position: absolute;
+    right: 23%;
+    top: 0.8vh;
+}
+
+.menu > ul > li > section > span{
+    color: rgb(0, 0, 0);
+    margin-left: 19%;
+}
+
+.menu > ul > li > section > span > a{
+    display: inline-block;
+    margin-top: 1vh;
+    text-decoration: none;
+    color: #d4c7c2 ;
+    transition: 0.5s;
+    font-family: worksans2;
+}
+
+#seltext{
+    color: #e7e7e7 ;
+    font-family: worksans3;
+}
+
+.menu > ul > li > section > span > a:hover{
+    transition: 0.5s;
+    color: #ebccc2;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 55% 40%;
+    height: 100vh;
+}
+
+.leftsec{
+    background-image: url(../img/section-composition4.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 40%;
+}
+
+.artright{
+    padding-top: 4vh;
+    padding-left: 10%;
+    text-align: center;
+}
+
+.artright > div{
+    background-image: url(../img/h9-argilla-bright-hero-1000x1000.webp);
+    height: 65vh;
+}
+
+
+.artright > h1{
+    font-size: 40px;
+    font-family: worksans2;
+}
+
+.artright > h4{
+    font-size: 20px;
+    font-family: worksans;
+    color: #867772 ;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+
+.artright > h5{
+    font-size: 20px;
+    font-family: worksans;
+    color: #867772 ;
+    letter-spacing: 1px;
+}
+
+.artright > a{
+    font-size: 15px;
+    font-family: worksans2;
+    color: #867772 ;
+    text-decoration: none;
+    letter-spacing: 5px;
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #ebccc2;
+    box-shadow: 0px 0px 3px rgb(34, 34, 34);
+    text-shadow: 0px 0px 0.2px rgba(109, 109, 109, 0.226);
+}
+
+
+
+
+@media only screen and (max-width: 1140px){
+
+
+    header{
+
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2vh;
+        
+
+    }
+
+    .btnmenu{
+        display: inline-block;
+        font-size: 40px;
+    }
+
+    .btnmenu2{
+
+        font-size: 40px;
+
+    }
+    
+    .logo{
+        width: 10%;
+        text-align: center;
+    }
+    .logo > img{
+        
+    }
+    
+    .social{
+        width: 80%;
+        text-align: right;
+        padding-right: 0%;
+    }
+    
+    .social > ul{
+    margin-right: 5%;
+    }
+    
+    .social > ul > li{
+        display: inline-block;
+        margin-left: 1%;
+    }
+    
+    .subscribe{
+        margin-right: 2%;
+    }
+    
+    .youtube{
+        margin-right: 2%;
+    }
+    
+    .social > ul > li > a{
+        font-family: worksans2;
+        text-decoration: none;
+        color: #867772 ;
+        transition: 0.5s;
+        font-size: 20px;
+        text-shadow: 0px 0px 4px rgb(46, 46, 46);
+    }
+    
+
+    main{
+        display: block;
+        
+    }
+
+.leftsec{
+  display: none;
+}
+
+.artright{
+    margin-top: 5vh;
+    padding-top: 35vh;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+    background-image:url(../img/section-composition4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 5vh;
+    
+}
+
+.artright > h1 {
+    font-size: 70px;
+}
+.artright > h4 {
+    font-size: 40px;
+}
+.artright > h5 {
+    font-size: 40px;
+}
+
+.artright > a {
+    padding: 20px 60px;
+    font-size: 30px;
+}
+
+.artright > div{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ 
+.btnmenu{
+    display: inline-block;
+}
+.btnmenu2{
+    
+}
+
+
+.menu{
+    position: fixed;
+    margin-top: 11vh;
+    margin-left: 0%;
+    width: 0%;
+    height: 0vh;
+    overflow: hidden;
+    transition: 0.5s;
+    background-color: #2e2e2ec2;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.575);
+    
+    
+}
+
+.menu > ul{
+    list-style-type: none;
+}
+
+.menu > ul > li{
+    margin-bottom: 5vh;
+}
+
+.menu > ul > li > section{
+    display: flex;
+    text-decoration: none;
+}
+
+.menu > ul > li > section > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circles{
+    position: relative;
+    display: none;
+}
+
+
+.menu > ul > li > section > span{
+    color: rgb(0, 0, 0);
+    margin-left: 19%;
+    font-size: 12px;
+}
+
+.menu > ul > li > section > span > a{
+    text-decoration: none;
+    color: #d4c7c2 ;
+    transition: 0.5s;
+    font-family: worksans2;
+    font-size: 30px;
+}
+
+} 
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+
+    header{
+
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2vh;
+        
+
+    }
+
+    .btnmenu{
+        display: inline-block;
+        font-size: 40px;
+    }
+
+    .btnmenu2{
+
+        font-size: 40px;
+
+    }
+    
+    .logo{
+        width: 10%;
+        text-align: center;
+    }
+    .logo > img{
+        
+    }
+    
+    .social{
+        width: 80%;
+        text-align: right;
+        padding-right: 0%;
+    }
+    
+    .social > ul{
+        margin-right: 5%;
+    }
+    
+    .social > ul > li{
+        display: inline-block;
+        margin-left: 1%;
+    }
+    
+    .subscribe{
+        margin-right: 2%;
+    }
+    
+    .youtube{
+        margin-right: 2%;
+    }
+    
+    .social > ul > li > a{
+        font-family: worksans2;
+        text-decoration: none;
+        color: #867772 ;
+        transition: 0.5s;
+        font-size: 15px;
+        text-shadow: 0px 0px 4px rgb(46, 46, 46);
+    }
+    
+
+    main{
+        display: block;
+        
+    }
+
+.leftsec{
+  display: none;
+}
+
+.artright{
+    margin-top: 5vh;
+    padding-top: 35vh;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+    background-image:url(../img/section-composition4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 5vh;
+    
+}
+
+.artright > h1 {
+    font-size: 50px;
+}
+
+.artright > div{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ 
+.btnmenu{
+    display: inline-block;
+}
+.btnmenu2{
+    
+}
+
+
+.menu{
+    position: fixed;
+    margin-top: 11vh;
+    margin-left: 0%;
+    width: 0%;
+    height: 0vh;
+    overflow: hidden;
+    transition: 0.5s;
+    background-color: #2e2e2ec2;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.575);
+    
+    
+}
+
+.menu > ul{
+    list-style-type: none;
+}
+
+.menu > ul > li{
+    margin-bottom: 5vh;
+}
+
+.menu > ul > li > section{
+    display: flex;
+    text-decoration: none;
+}
+
+.menu > ul > li > section > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circles{
+    position: relative;
+    display: none;
+}
+
+
+.menu > ul > li > section > span{
+    color: rgb(0, 0, 0);
+    margin-left: 19%;
+    font-size: 12px;
+}
+
+.menu > ul > li > section > span > a{
+    text-decoration: none;
+    color: #d4c7c2 ;
+    transition: 0.5s;
+    font-family: worksans2;
+    font-size: 20px;
+}
+
+} 
+
+
+
+
+
+
+@media only screen and (max-width: 576px){
+
+
+    header{
+
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2vh;
+        
+
+    }
+
+    .btnmenu{
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .btnmenu2{
+
+        font-size: 20px;
+
+    }
+    
+    .logo{
+        width: 10%;
+        text-align: center;
+        padding-left: 3%;
+    }
+    .logo > a > img{
+        
+    }
+    
+    .social{
+        width: 80%;
+        text-align: right;
+        padding-right: 0%;
+    }
+    
+    .social > ul{
+        margin-right: 5%;
+    }
+    
+    .social > ul > li{
+        display: inline-block;
+        margin-left: 1%;
+    }
+    
+    .subscribe{
+        margin-right: 2%;
+    }
+    
+    .youtube{
+        margin-right: 2%;
+    }
+    
+    .social > ul > li > a{
+        font-family: worksans2;
+        text-decoration: none;
+        color: #867772 ;
+        transition: 0.5s;
+        font-size: 8px;
+        text-shadow: 0px 0px 4px rgb(46, 46, 46);
+    }
+    
+
+    main{
+        display: block;
+        
+    }
+
+.leftsec{
+  display: none;
+}
+
+.artright{
+    margin-top: 5vh;
+    padding-top: 35vh;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+    background-image:url(../img/section-composition4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 5vh;
+    
+}
+
+.artright > h1 {
+    font-size: 30px;
+}
+.artright > h4 {
+    font-size: 20px;
+}
+.artright > h5 {
+    font-size: 20px;
+}
+
+.artright > a {
+    padding: 8px 30px;
+    font-size: 18px;
+}
+
+.artright > div{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: 70%;
+}
+ 
+.btnmenu{
+    display: inline-block;
+}
+.btnmenu2{
+    
+}
+
+
+.menu{
+    position: fixed;
+    margin-top: 11vh;
+    margin-left: 0%;
+    width: 0%;
+    height: 0vh;
+    overflow: hidden;
+    transition: 0.5s;
+    background-color: #2e2e2ec2;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgba(51, 51, 51, 0.575);
+    
+    
+}
+
+.menu > ul{
+    list-style-type: none;
+}
+
+.menu > ul > li{
+    margin-bottom: 5vh;
+}
+
+.menu > ul > li > section{
+    display: flex;
+    text-decoration: none;
+}
+
+.menu > ul > li > section > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circles{
+    position: relative;
+    display: none;
+}
+
+
+.menu > ul > li > section > span{
+    color: rgb(0, 0, 0);
+    margin-left: 19%;
+    font-size: 12px;
+}
+
+.menu > ul > li > section > span > a{
+    text-decoration: none;
+    color: #d4c7c2 ;
+    transition: 0.5s;
+    font-family: worksans2;
+    font-size: 12px;
+}
+
+} 
+
+
+
