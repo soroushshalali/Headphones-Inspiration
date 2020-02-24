@@ -1,23 +1,23 @@
 @font-face{
     font-family: worksans;
-    src: url(fonts/WorkSans-Black.otf);
-    src: url(fonts/WorkSans-Bold.otf);
-    src: url(fonts/WorkSans-ExtraBold.otf);
-    src: url(fonts/WorkSans-ExtraLight.otf);
-    src: url(fonts/WorkSans-Hairline.otf);
-    src: url(fonts/WorkSans-Light.otf);
-    src: url(fonts/WorkSans-SemiBold.otf);
-    src: url(fonts/WorkSans-Thin.otf);
+    src: url(WorkSans-Black.otf);
+    src: url(WorkSans-Bold.otf);
+    src: url(WorkSans-ExtraBold.otf);
+    src: url(WorkSans-ExtraLight.otf);
+    src: url(WorkSans-Hairline.otf);
+    src: url(WorkSans-Light.otf);
+    src: url(WorkSans-SemiBold.otf);
+    src: url(WorkSans-Thin.otf);
 }
 
 @font-face{
     font-family: worksans2;
-    src: url(fonts/WorkSans-Regular.otf);
+    src: url(WorkSans-Regular.otf);
 }
 
 @font-face{
     font-family: worksans3;
-    src: url(fonts/WorkSans-Medium.otf);
+    src: url(WorkSans-Medium.otf);
 }
 
 .btnmenu{
